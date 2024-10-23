@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookBook Corner All Recipes Page</title>
+    <link href="general.css" rel="stylesheet">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="images/cookbook_corner_logo.svg" alt="CookBook Corner Logo" class="logo">
+        <h1 class="logo-text">COOKBOOK CORNER</h1>
+    </div>
+    <hr class="separator">
+    <div class="navigation-container">
+        <div class="hamburger" id="hamburger">&#9776;</div> <!-- Hamburger icon -->
+        <div class="nav-buttons" id="nav-buttons">
+            <div class="close-icon" id="close-icon">&times;</div>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="all-recipes.html" class="nav-link">All Recipes</a>
+            <a href="recipe.html" class="nav-link">Surprise!</a>
+            <a href="help.html" class="nav-link">Help</a>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <button class="search-button">Search</button>
+        </div>
+    </div>
+    <hr class="separator">
+
+    <!-- Filter Area -->
+    <div class="filter-area">
+        <h2 class="filter-title">All Recipes</h2>
+        <div class="dropdowns-container">
+            <select class="dropdown">
+                <option value="">CUISINE</option>
+                <option value="american">American</option>
+                <option value="asian">Asian</option>
+                <option value="italian">Italian</option>
+            </select>
+            <select class="dropdown">
+                <option value="">PROTEIN</option>
+                <option value="beef">Beef</option>
+                <option value="chicken">Chicken</option>
+                <option value="pork">Pork</option>
+            </select>
+            <select class="dropdown">
+                <option value="">DIET</option>
+                <option value="gluten-free">Gluten Free</option>
+                <option value="vegan">Vegan</option>
+                <option value="vegetarian">Vegetarian</option>
+            </select>
+            <select class="dropdown">
+                <option value="">SORT BY</option>
+                <option value="time">Time</option>
+                <option value="alphabetical">Alphabetical</option>
+            </select>
+        </div>
+        <div class="clear-all-container">
+            <span class="clear-all-text">CLEAR ALL</span>
+        </div>
+    </div>
+
+    <hr class="all-separator">
+
+    <div class="latest-recipes-section">
+        <div class="latest-recipes-container">
+            <div class="recipe-box">
+                <img src="images/image_placeholder.png" alt="Recipe Image 1" class="recipe-image">
+                <h3 class="recipe-title">Recipe Title 1</h3>
+                <h4 class="recipe-subtitle">Subtitle 1</h4>
+                <div class="time-indicator">25 MIN</div>
+            </div>
+            <div class="recipe-box">
+                <img src="images/image_placeholder.png" alt="Recipe Image 2" class="recipe-image">
+                <h3 class="recipe-title">Recipe Title 2</h3>
+                <h4 class="recipe-subtitle">Subtitle 2</h4>
+                <div class="time-indicator">30 MIN</div>
+            </div>
+            <div class="recipe-box">
+                <img src="images/image_placeholder.png" alt="Recipe Image 3" class="recipe-image">
+                <h3 class="recipe-title">Recipe Title 3</h3>
+                <h4 class="recipe-subtitle">Subtitle 3</h4>
+                <div class="time-indicator">20 MIN</div>
+            </div>
+            <div class="recipe-box">
+                <img src="images/image_placeholder.png" alt="Recipe Image 4" class="recipe-image">
+                <h3 class="recipe-title">Recipe Title 4</h3>
+                <h4 class="recipe-subtitle">Subtitle 4</h4>
+                <div class="time-indicator">15 MIN</div>
+            </div>
+            <div class="recipe-box">
+                <img src="images/image_placeholder.png" alt="Recipe Image 5" class="recipe-image">
+                <h3 class="recipe-title">Recipe Title 5</h3>
+                <h4 class="recipe-subtitle">Subtitle 5</h4>
+                <div class="time-indicator">10 MIN</div>
+            </div>
+            <div class="recipe-box">
+                <img src="images/image_placeholder.png" alt="Recipe Image 6" class="recipe-image">
+                <h3 class="recipe-title">Recipe Title 6</h3>
+                <h4 class="recipe-subtitle">Subtitle 6</h4>
+                <div class="time-indicator">12 MIN</div>
+            </div>
+            <div class="recipe-box">
+                <img src="images/image_placeholder.png" alt="Recipe Image 7" class="recipe-image">
+                <h3 class="recipe-title">Recipe Title 7</h3>
+                <h4 class="recipe-subtitle">Subtitle 7</h4>
+                <div class="time-indicator">18 MIN</div>
+            </div>
+            <div class="recipe-box">
+                <img src="images/image_placeholder.png" alt="Recipe Image 8" class="recipe-image">
+                <h3 class="recipe-title">Recipe Title 8</h3>
+                <h4 class="recipe-subtitle">Subtitle 8</h4>
+                <div class="time-indicator">22 MIN</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
