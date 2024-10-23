@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchButton = document.querySelector('.search-button');
     const searchInput = document.querySelector('.search-bar');
 
-    // Ensure elements exist
+
     if (hamburger && navButtons && closeIcon && navLinks.length) {
         // Toggle the menu when the hamburger is clicked
         hamburger.addEventListener('click', () => {
