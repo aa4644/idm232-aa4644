@@ -512,7 +512,7 @@ a {
     font-family: 'Lora-SemiBold', sans-serif;
     font-size: 24px;
     color: #333;
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 
 .ingredients-left {
@@ -699,7 +699,6 @@ a {
 }
 
 .description {
-    padding-right: 50px;
     font-family: 'Lora-Regular', sans-serif;
 }
 
