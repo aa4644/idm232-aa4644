@@ -1022,3 +1022,26 @@ a {
 .login-container a:hover {
     text-decoration: underline;
 }
+
+.button-container {
+    display: flex; 
+    justify-content: center; 
+    padding-top: 10px;
+}
+
+.solution-button {
+    background-color: transparent; 
+    color: #292424; 
+    border: 2px solid #292424; 
+    padding: 12px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    text-align: center; 
+    box-shadow: 4px 4px 0px #DEB583; 
+    transition: background-color 0.3s ease;
+}
+
+.solution-button:hover {
+    background-color: rgba(233, 162, 97, 0.2); 
+    transition: background-color 0.8s;
+}

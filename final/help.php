@@ -77,6 +77,10 @@ if (isset($_GET['surprise'])) {
 
         <h3>Enjoy Cooking!</h3>
         <p>We hope you find the perfect recipes and enjoy cooking delicious meals with CookBook Corner!</p>
+    
+        <div class="button-container">
+                <a href="case-study.html" class="solution-button" target="_blank">View Case Study</a>
+        </div>
     </div>
 
     <script src="script.js"></script>
